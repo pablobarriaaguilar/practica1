@@ -1,0 +1,132 @@
+*{ padding: 0px;
+    margin: 0px;
+}
+
+.navBar{
+    display: flex;
+    background-color: #7bb4ed;
+    color: aliceblue;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.navBar > .navTitle{
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navBar > .links{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navBar > .links > .link{
+    margin-left: 20px;
+}
+
+.container{
+    
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tempHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    
+}
+
+.tempContainer{
+    display: flex;
+    width: 240px;
+    justify-content: space-around;
+    
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weatherContainer{
+    background-color: rgb(231, 231, 231);
+    width: 150px;
+    height: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.weatherContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    height: 70%;
+    
+}
+
+.image>img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.weatherContainer> .temps{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.max{
+    color: blue;
+    
+}
+
+.min{
+    color: red;
+}
+
+.cookieContainer{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    border-style: solid;
+    position: fixed;
+    top: 370px;
+}
+.cookieContent{
+    
+    flex: 1;
+}
+
+.cookieMessage{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button{
+    font-weight: bolder;
+    background-color: #7bb4ed;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+}
